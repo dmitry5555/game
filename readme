@@ -1,5 +1,7 @@
 Запуск (опционально)
 
+=== установить turtle
+обычно входит в стандартную библиотеку Python
 === задать окружение
 python3 -m venv venv
 source venv/bin/activate
@@ -7,7 +9,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ===	запуск в отдельной сесии фоном
 screen -S proj_session -L -Logfile log.log
-
 
 ====
 
